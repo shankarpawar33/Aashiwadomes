@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aashirwad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" href="./lib/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./lib/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="lib/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="initialize()" ng-app="myApp" ng-controller="myCtrl" ng-cloak>
+    <div class="menu scrolled">
+
+        <div class="logo">
+            <img class="logoimg" src="images/Logo.png">
+        </div>
+
+        <div class="menu-right-items">
+            <div class="mobile-nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-right-item">
+                <a href="#about" onclick="goto('#home')">home</a>
+            </div>
+            <div class="menu-right-item">
+                <a href="#clients" onclick="goto('#story')">Our Story</a>
+            </div>
+
+
+            <div class="menu-right-item">
+                <a href="#Specifications" onclick="goto('#Specifications')">Specifications</a>
+            </div>
+
+            <div class="menu-right-item">
+
+                <a href="#gallery " onclick="goto( '#gallery' ) " target="self ">Album</a>
+
+            </div>
+            <div class="menu-right-item">
+                <a href="#services" onclick="goto('#contact')">Join the Family</a>
+            </div>
+            <div class="menu-right-item">
+                    <a href="#ourblogs" onclick="goto('#ourblogs')">Our Blogs</a>
+                </div>
+    
+
+        </div>
+
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+    <div class="section hero-section " id="home">
+        <div class="col-md-6" style="display: flex;justify-content: center;align-items: center">
+            <div class="caption ">
+                <p class="big wow fadeIn">THIS IS HOME</p>
+                <p class="small wow slideInLeft">Where dreams are lived.</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="story-image col-md-6 wow fadeIn" data-toggle="modal" data-target="#myModal">
+
+
+            <div class="owl-carousel home-slider">
+                <div class="hero-banner " style="background-image: url('./images/banner-image.png') ">
+                </div>
+                <div class="hero-banner " style="background-image: url('./images/img1.png') ">
+                </div>
+                <div class="hero-banner " style="background-image: url('./images/img2.png') ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="story-section section " id="story">
+        <div class="conatiner ">
+            <p class="section-heading wow slideInLeft "> Our Story </p>
+            <div class="row section-row ">
+                <div class="col-md-6 story-content wow fadeIn ">
+                    <p class="description ">Looking for a home where you can spend quality time with your family?</p>
+                    <p class="description ">Looking for a home with a peaceful environment?</p>
+                    <p class="description ">
+                        Looking for a home where you experience cultural and educational diversity?
+                    </p>
+                    <p class="description ">Looking for a home where productivity cultivates because you have time to spare as connectivity is so easy and swift?</p>
+                    <p class="description ">
+                        We have made your home like it’s ours. Not just a house with space, this is a home with feelings. Your happy home, Aashirwad homes.
+                    </p>
+
+                    <p class="description ">
+                        THIS IS HOME…
+                    </p>
+
+                    <p class="description ">
+                        Where dreams are lived.
+                    </p>
+                </div>
+
+                <div class="story-image col-md-6 wow fadeIn ">
+                    <img src="images/story-image.png ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="display: flex; justify-content: center;align-items: center; ">
+        <div class="Scrolls " id="Specifications">
+            <!-- <p class="section-heading slideInLeft ">Why Us?</p>-->
+            <h2 class="thespecification ">Specifications</h2>
+            <div class="story-section sections ">
+                <div class="container ">
+
+                    <div class="row sections-row " style="margin-top: 10 ">
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3>STRUCTURE</h3>
+                                <p>Earthquake resistant RCC structure in compliance with IS standards. </p>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3>BRICKWORK</h3>
+                                <p>All external and internal walls in 6” bricks (red bricks or equivalent).</p>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3>PLASTER</h3>
+                                <p>External: Double coated sand faced plaster.</P>
+                                <P> Internal: All internal walls in tar with POP finish.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- --------------------------------------------------------------- -->
+                <div class="container ">
+                    <div class="row sections-row " style="margin-top: 10 ">
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3>WINDOWS</h3>
+                                <p>Aluminium sliding 3 track windows with mosquito net and safety grills. Granite window sill. </p>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3>KITCHEN</h3>
+                                <p>Granite platforms with standard stainless steel sink and glazed tiles dado up to slab level.</p>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3>LANDING
+                                    <BR> & STAIRS</h3>
+                                <p>All landings and stairs in polished granite/kota stone.</P>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- --------------------------------------------- -->
+                <div class="container ">
+                    <div class="row sections-row " style="margin-top: 10 ">
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3>FLOORING</h3>
+                                <p>Vitrified flooring of 32”*32” size in entire flat, with 3” skirting. Anti-Skid tiles in bathroom and open terrace (excluding roof terrace). Checkered tiles in parking area.</p>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3>PAINTING</h3>
+                                <p>Internal: Luster paint in all rooms.</p>
+                                <p>External: Asian/Jotun or equivalent.</p>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 story-content lists ">
+                            <ul>
+                                <h3> ELECTRIC FITTING </h3>
+
+                                <p>Concealed ISI approved copper FLRS wiring with MCB controls. Anchor: ROMA/Legrand or equivalent switches. Wire: Polycab or its equivalents.</P>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ---------------------------------AMENITIES -->
+            <div class="container ">
+                <div class="row sections-row " style="margin-top: 10 ">
+                    <div class="col-md-4 story-content lists ">
+                        <ul>
+                            <h3>FLOORING</h3>
+                            <li>T.V points in living and master bedroom.</li>
+                            <li>A.C points in both bedrooms.</li>
+                            <li>Provision for geyser point in all bathrooms. </li>
+                            <li>Provision for washing machine point in utility area.</li>
+                            <li>Inverter provision for each flat. </li>
+                            <li>Provision for exhaust fan.</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 story-content lists ">
+                        <ul>
+                            <h3>TOILETS &<br> BATHROOMS</h3>
+                            <p>Anti-Skid tiles flooring, glazed tiles dado up to slab level, sanitary ware of standard brands. Wash basin, hot and cold water mixture/diverter. Bathroom:Jaguar or equivalent bath fittings.</p>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 story-content lists ">
+                        <ul>
+                            <h3>DOORS</h3>
+
+                            <p>Main Entrance flush door all internal doors with decorative laminated finish with standard fittings. Main door frame in ply and all internal door frames in Granite/Marble/Ply. Europa lock for main door and video door phones
+                                for all flats.
+                            </P>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-section sections ">
+                <div class="row sections-row " style="margin-top: 10 ">
+                    <div class="col-md-4 story-content lists ">
+                        <ul>
+                            <h3>PLUMBING</h3>
+                            <p>Concealed and insulated ISI approved plumbing.</p>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="story-section sections aminities " id="Amenities">
+                <p class="section-heading "> Amenities </p>
+                <div class="row section-row " style="padding-left: 8%; padding-right: 0% ">
+                    <div class="col-md-4 story-content lists ">
+                        <ul>
+                            <li> Modular Kitchen with Designer Stainless Steel</li>
+                            <li>A.C points in both Bedrooms</li>
+                            <li>Footlight in Master Bedroom</li>
+                            <li>Name Plate, Letter Box, Lobby Directory</li>
+                            <li>Sewage Treatment Plant</li>
+                            <li>Children’s Play Area</li>
+                            <li>Indoor Games</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 story-content lists ">
+                        <ul>
+                            <li>Water Purifier with modern filter system</li>
+                            <li>French Terrace Door</li>
+                            <li>Lift with power back-up</li>
+                            <li>Solar street lights for internal common area of society</li>
+                            <li>Rain Water Harvesting</li>
+                            <li>Garden Sitting Area</li>
+                            <li>Walking Area</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 story-content lists ">
+                        <ul>
+                            <li>Video Door phones for all flats</li>
+                            <li>Decorative Entrance Lobby</li>
+                            <li>Common Solar Water Heater for all bathroom</li>
+                            <li>24*7 Security guard & CCTV for safety of society</li>
+                            <li>Fire Fighting Cartage</li>
+                            <li>Club House</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="story-section section "  id="gallery">
+        <div class="conatiner al" style="margin-top: 5%">
+            <p class="section-heading wow slideInLeft "> Album </p>
+            <div class="row section-row gallery ">
+                <div class="col-md-6 col-xs-12 story-content album wow fadeIn ">
+                    <p class="description desc1 present"> Home is a little corner of God's green earth to call your own. </p>
+                    <p class="description desc2 "> Home is inviting. </p>
+                    <p class="description desc3 "> Home is comfort. </p>
+                    <p class="description desc4 "> Home is a sense of belonging. </p>
+                    <p class="description desc5 "> Home is a refuge from the world. </p>
+                    <p class="description desc6 "> Home is a way to establish stability. </p>
+                    <p class="description desc7 "> Home is a place that always welcomes you with open arms. </p>
+                    <p class="description desc8 "> Home is a place to share your sadness and happiness. </p>
+
+                    <div class="slider-nav-container desktop-only ">
+
+                        <div class="slider-nav gallery-slider-nav">
+                            <div class="previous ">
+                                <p>Back</p>
+                                <img src="images/previous.png ">
+                            </div>
+                            <div class="next ">
+                                <p>Next</p>
+                                <img src="images/previous.png ">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-image col-md-6 wow fadeIn" data-toggle="modal" data-target="#myModal1">
+                    <div class="owl-carousel gallery-slider" style="width: 100%; ">
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg1.jpg'); ">
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg2.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg3.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg4.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg5.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg6.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg8.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg7.jpg') ">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav-container mobile-only ">
+
+                    <div class="slider-nav gallery-slider-nav">
+                        <div class="previous ">
+                            <p>Back</p>
+                            <img src="images/previous.png ">
+                        </div>
+                        <div class="next ">
+                            <p>Next</p>
+                            <img src="images/previous.png ">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    </div>
+
+    <!-- <div class="siteStatus "><button data-toggle="modal" data-target="#myModal2" type="button " id="siteStatuss " class="primary-buttons " style="margin :0px;margin-bottom: 50px; position: static ">Site Status Update</button>
+    </div> -->
+    </div>
+    </div>
+
+    <div class="contact-section section " id="contact">
+        <div class="conatiner ">
+            <p class="section-heading wow slideInLeft "> Join the Family... </p>
+            <div class="row section-row gallery ">
+                <div class="col-md-6 story-content wow fadeIn ">
+
+                    <form name='emailValid'>
+
+                        </p><input type="text" name="name" id="name" class="primary-input" placeholder="Name *" ng-Model="name" required ng-blur="validateName()" ng-change="validateName()">
+                        <span style="margin-top: -15px; position: absolute;" id="uname" name="uname" class="text-danger font-weight-bold ">* Name Is Required</span>
+
+                        <input type="text" name="phone" id="phone" class="primary-input" placeholder="Phone *" ng-Model="phone" required ng-blur="validatePhone()" ng-change="validatePhone()">
+                        <span style="margin-top: -15px; position: absolute;" id="number" name="number" class="text-danger font-weight-bold ">* Phone Is Required</span>
+
+
+                        <input type="text" name="email" id="email" class="primary-input" placeholder="Email Id" ng-Model="email" ng-change="validateEmail()">
+                        <span style="margin-top: -15px; position: absolute;" id="emailid" name="emailid" class="text-danger font-weight-bold ">Please enter a valid mail id</span>
+                        <input type="text" name="message" id="message" class="primary-input" placeholder="Tell us more, what are you looking for?" ng-Model="message">
+
+                        <div class="actions">
+                            <button type="button" id="sendMail" class="primary-button" style="margin-bottom: 50px" ng-Click="sendMail()">Submit and Download Brochure</button>
+                            <div id="loading"></div>
+                            <button type="button" id="thankYou" class="primary-buttons" style="margin-bottom: 50px">Thank You!</button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="story-image col-md-6 wow fadeIn ">
+
+                    <div id="map_canvas" style="width:100%;height:400px; "></div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <i data-dismiss="modal" class="fa fa-2x fa-times-circle-o" style="position: absolute;top:10px;right:10px;cursor: pointer;z-index: 10;"></i>
+
+                <div class="modal-body">
+
+                    <div class="slider-nav site-status-slider-nav">
+                        <div class="previous sitepvs" style="z-index: 10;top: 50%;left: 3%; position: absolute;transform: rotateY(-50)">
+                            <p>Back</p>
+                            <img src="images/previous.png ">
+                        </div>
+                        <div class="next sitenxt" style="z-index: 10;top: 50%;right: 3%; position: absolute;transform: rotateY(-50)">
+                            <p>Next</p>
+                            <img src="images/previous.png ">
+                        </div>
+                    </div>
+                    <div class="owl-carousel site-status-slider">
+                        <div class="hero-banner " style="background-image: url('./images/siteimg1.jpeg') ">
+                        </div>
+                        <div class="hero-banner " style="background-image: url('./images/siteimg2.jpeg') ">
+                        </div>
+                        <div class="hero-banner " style="background-image: url('./images/siteimg3.jpeg') ">
+                        </div>
+                        <div class="hero-banner " style="background-image: url('./images/siteimg4.jpeg') ">
+                        </div>
+                        <div class="hero-banner " style="background-image: url('./images/siteimg5.jpeg') ">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <i data-dismiss="modal" class="fa fa-2x fa-times-circle-o" style="position: absolute;top:10px;right:10px;cursor: pointer;z-index: 10;"></i>
+
+
+                <div class="modal-body">
+                    <div class="slider-nav home-slider-modal-nav">
+                        <div class="previous homepvs" style="top: 50%;left: 3%; position: absolute;z-index: 10;transform: rotateY(-50)">
+                            <p>Back</p>
+                            <img src="images/previous.png ">
+                        </div>
+                        <div class="next homenxt" style="z-index: 10;top: 50%;right: 3%; position: absolute;transform: rotateY(-50)">
+                            <p>Next</p>
+                            <img src="images/previous.png ">
+                        </div>
+                    </div>
+
+                    <div class="owl-carousel home-slider-modal">
+                        <div class="hero-banner " style="background-image: url('./images/banner-image.png') ">
+                        </div>
+                        <div class="hero-banner " style="background-image: url('./images/galleryimg1.jpg') ">
+                        </div>
+                        <div class="hero-banner " style="background-image: url('./images/galleryimg3.jpg') ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <i data-dismiss="modal" class="fa fa-2x fa-times-circle-o" style="position: absolute;top:10px;right:10px;cursor: pointer;z-index: 10;"></i>
+
+
+                <div class="modal-body">
+                    <div class="slider-nav gallery-slider-modal-nav">
+                        <div class="previous gallerypvs" style="z-index: 10;top: 50%;left: 3%; position: absolute;transform: rotateY(-50)">
+                            <p>Back</p>
+                            <img src="images/previous.png ">
+                        </div>
+                        <div class="next gallerynxt" style="z-index: 10;top: 50%;right:3%; position: absolute;transform : rotateY(-50)">
+                            <p>Next</p>
+                            <img src="images/previous.png ">
+                        </div>
+
+                    </div>
+
+                    <div class="owl-carousel gallery-slider-modal" style="width: 100%; ">
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg1.jpg'); ">
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg2.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg3.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg4.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg5.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg6.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg8.jpg') ">
+
+                        </div>
+                        <div class="hero-banner1 " style="background-image: url( './images/galleryimg7.jpg') ">
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="disclaimerModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" style="font-weight: 900;">Disclaimer</h3>
+            </div>
+            <div class="modal-body">
+              <p>This disclaimer ("Disclaimer") is applicable to the Website. By using or accessing the Website, you agree, acknowledge and accept all the terms and conditions, without any qualification or limitation. You acknowledge and agree that the Company/Firm reserves the right to add, alter or delete material from the Website at any time and may, at any time, revise these terms and conditions without prior notification. You are bound by any such amendments and the Company/Firm therefore advises that you periodically visit this page to review the current terms and conditions for usage of the Website. You agree and acknowledge that it is your responsibility to stay updated with the terms and conditions of the Website. 
+              </p>
+              <p>
+                The Website and its content is provided with all faults on an "as is" and "as available" basis. No information given under this Website creates a warranty or expands the scope of any warranty that cannot be disclaimed under applicable law. Your use of the Website is solely at your own risk. This Website is for guidance only. It does not constitute part of any offer or contract. Design & specifications are subject to change without prior notice. Computer generated images are the artist's impression and are only indicative of the actual designs. 
+            </p>
+            <p>
+                Communication, content and material within the Website may include design, imagery and conceptual representations of the projects / products under development. The same are being modified or even changed entirely, to meet the terms, stipulations and recommendations of the Real Estate Regulation Act, 2016 (“RERA”) and rules made thereunder, and may vary from content available as of date. You agree and acknowledge the same and that this content is subject to change at any time. You agree and acknowledge that you are solely responsible for any action you take based upon this content and that the Company/Firm is not liable for the same. You are therefore required to verify all the details, including area, amenities, services, terms of sales and payments and other relevant terms independently with the sales team/ Company/Firm prior to taking any decision for buying any unit(s) in any of the said projects. Till such time the details are fully updated, the said information will not be construed as an advertisement. To find out more about a project / development, please telephone our sales representatives or visit our sales office during opening hours and speak to one of our sales staff. 
+            </p>
+            <p>
+                In no event will the Company/Firm be liable for claim made by the users including seeking any cancellation for any of the inaccuracies in the information provided in this Website, though all efforts have been made to ensure accuracy. The Company/Firm will under no circumstance be liable for any expense, loss or damage including, without limitation, indirect or consequential loss or damage, or any expense, loss or damage whatsoever arising from use, or loss of use, of data, arising out of or in connection with the use of this Website. 
+            </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">I Agree</button>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+
+      <div id="privacyModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+      
+     
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title" style="font-weight: 900;">Privacy Policy</h3>
+            </div>
+            <div class="modal-body">
+            <p>
+                NEST Saswad Reality LLP (which term includes all subsidiaries of NEST Saswad Reality LLP) ("Company/Firm", "we" or “us”) respect your privacy and are committed to protecting it through our compliance with this policy.
+            </p>
+            <p>
+                This policy describes the types of information we may collect from you or that you may provide when you visit the website www.aashirwadhomes.com (our "Website") and our practices for collecting, using, maintaining, protecting and disclosing that information.
+            </p>
+            <p>
+               This policy applies to information we collect:
+            </p>
+            <ul>
+                <li>On this Website.</li>
+                <li>In e-mail, text and other electronic messages between you and this Website.</li>
+                <li>Through mobile and desktop applications you may download from this Website, which provide dedicated non-browser-based interaction between you and this Website.</li>
+                <li>When you interact with our advertising and applications on third-party websites and services, if those applications or advertising include links to this policy.</li>
+               
+            </ul>
+            <p>
+                It does not apply to information collected by:
+            </p>
+
+            <ul>
+                <li>us offline or through any other means, including any other website operated by any third party; or</li>
+                <li>any third party, including through any application or content (including advertising) that may link to the Website.</li>
+            </ul>
+            <p>
+                Please read this policy carefully to understand our policies and practices regarding your information and how we will treat it. If you do not agree with our policies and practices, your choice is not to use our Website. By accessing or using this Website, you agree to this privacy policy. This policy may change from time to time. Your continued use of this Website after we make changes is deemed to be acceptance of those changes, so please check the policy periodically for updates.
+            </p>
+
+            <p>
+                DEFINITIONS
+            </p>
+
+
+            <p>
+                NEST Saswad Reality LLP means the Company/Firm, corporation, firm, individual or association of persons currently administering, providing content for, maintaining and otherwise managing the Site and every employee of NEST Saswad Reality LLP and its advertising agent or agents for the time being and their employees, and every consultant, advisor and associate of NEST Saswad Reality LLP and their respective employees.
+            </p>
+
+            <p>
+                "Contract", "Agreement" and "Terms of Service" refer to the terms and conditions herein set forth.
+            </p>
+
+            <p>
+                "Employee" means every person working in any capacity for NEST Saswad Reality LLP as defined herein and includes every member of his family and every person residing in his household as a member of his family. "Hosting", with all its grammatical variations, means and includes the provision of Services by NEST Saswad Reality LLP at the Site and subject always to the provisions of the Contract.
+            </p>
+
+            <p>
+                "Id" means the unique identification name or number assigned to every Member.
+            </p>
+
+            <p>
+                "Member" means and includes every person who, having satisfied the Eligibility Criteria set forth herein, has successfully completed the on-line registration process at the Site and has been assigned a unique Id by NEST Saswad Reality LLP and is not in default and has not committed breach of any of the terms of this Agreement.
+            </p>
+
+            <p>
+                "Personal Information" means all information about the Member provided to NEST Saswad Reality LLP via on-line forms at the Site or by any other means of communication, whether electronic, oral or written.
+            </p>
+
+
+            <p>
+                "Site" with all its grammatical variations refers to the web site hosted on the Internet/World Wide Web with the address of www.aashirwadhomes.com or such other address as may periodically be assigned to or adopted by NEST Saswad Reality LLP.
+            </p>
+
+            <p>
+                INFORMATION WE COLLECT ABOUT YOU AND HOW WE COLLECT IT
+            </p>
+
+            <p>
+                We collect several types of information from and about users of our Website, including information:
+            </p>
+
+            <ul>
+                <li>by which you may be personally identified, such as name, postal address, e-mail address, passport number, property ID or telephone number ("personal information")</li>
+                <li>that is about you but individually does not identify you; and/or about your internet connection, the equipment you use to access our Website and usage details.</li>
+            </ul>
+
+             <p>
+                We collect this information:
+            </p>
+
+            <ul>
+                <li>Directly from you when you provide it to us.</li>
+                <li>Automatically as you navigate through the site. Information collected automatically may include usage details, IP addresses and information collected through cookies, web beacons and other tracking technologies.</li>
+                <li>From third parties, for example, our business partners.</li>
+            </ul>
+
+
+            <p>
+                INFORMATION YOU PROVIDE TO US.
+            </p>
+
+
+            <p>
+                The information we collect on or through our Website may include:
+            </p>
+
+
+            <ul>
+                <li>Information that you provide by filling in forms on our Website. This includes information provided at the time of registering to use our Website, subscribing to our service, registering for newsletter, using the ‘contact us’ form, using the ‘We Care form’, using the careers portal or requesting further services.</li>
+                <li>We may also ask you for information when you enter a contest or promotion sponsored by us, and when you report a problem with our Website.</li>
+                <li>Records and copies of your correspondence (including e-mail addresses), if you contact us.</li>
+                <li>Your responses to surveys that we might ask you to complete for research purposes.</li>
+                <li>Details of transactions you carry out through our Website and of the fulfillment of your orders. You may be required to provide financial information before placing an order or making payment through our Website.</li>
+                <li>Your search queries on the Website.</li>
+            </ul>
+
+            <p>USAGE DETAILS, IP ADDRESSES, COOKIES AND OTHER TECHNOLOGIES</p>
+
+            <p>As you navigate through and interact with our Website, we may automatically collect certain information about your equipment, browsing actions and patterns, including:</p>
+
+            <ul>
+                <li>Details of your visits to our Website, including traffic data, location data, logs and other communication data and the resources that you access and use on the Website.</li>
+
+                <li>Information about your computer and internet connection, including your IP address, operating system and browser type.</li>
+            </ul>
+
+            <p>The information we collect automatically is statistical data. It helps us to improve our Website and to deliver a better and more personalized service by enabling us to:</p>
+
+            <ul>
+                <li>Estimate our audience size and usage patterns.</li>
+                <li>Store information about your preferences, allowing us to customize our Website according to your individual interests. Speed up your searches.</li>
+                <li>Recognize you when you return to our Website.</li>
+            </ul>
+
+            <p>The technologies we use for this automatic data collection may include:</p>
+            <p>
+                Cookies (or browser cookies)
+            </p>
+            <p>
+                A cookie is a small file placed on the hard drive of your computer. You may refuse to accept browser cookies by activating the appropriate setting on your browser. However, if you select this setting you may be unable to access certain parts of our Website. Unless you have adjusted your browser setting so that it will refuse cookies, our system will issue cookies when you direct your browser to our Website.
+            </p>
+
+            <p>Flash Cookies</p>
+
+            <p>Certain features of our Website may use local stored objects (or Flash cookies) to collect and store information about your preferences and navigation to, from and on our Website. Flash cookies are not managed by the same browser settings as are used for browser cookies.</p>
+
+            <p>Web Beacons</p>
+            <p>Pages of our the Website and our e-mails may contain small electronic files known as web beacons (also referred to as clear gifs. pixel tags and single-pixel gifs) that permit the Company/Firm, for example, to count users who have visited those pages or opened an e-mail and for other related website statistics (for example, recording the popularity of certain website content and verifying system and server integrity).</p>
+
+
+            <p>HOW WE USE YOUR INFORMATION</p>
+
+            <p>We use information that we collect about you or that you provide to us, including any personal information:</p>
+
+            <ul>
+                <li>To present our Website and its contents to you.</li>
+                <li>To provide you with information or services that you request from us.</li>
+                <li>To fulfill any other purpose for which you provide it.</li>
+                <li>To provide you with notices, including expiration, billing and renewal notices.</li>
+                <li>To carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection.</li>
+                <li>To notify you about changes to our Website or any project or services we offer or provide.</li>
+                <li>To allow you to participate in interactive features on our Website.</li>
+                <li>In any other way we may describe when you provide the information.</li>
+                <li>For any other purpose with your consent.</li>
+            </ul>
+
+            <p>We may also use your information to contact you about our own and third-parties' projects and services that may be of interest to you. If you do not want us to use your information in this way, please contact us at customerinfo@emaar.ae.</p>
+
+            <p>DISCLOSURE OF YOUR INFORMATION</p>
+
+            <p>We may disclose aggregated information about our users, and information that does not identify any individual, without restriction.</p>
+
+            <p>We may disclose personal information that we collect or you provide as described in this privacy policy:</p>
+
+            <ul>
+                <li>To our subsidiaries and affiliates.</li>
+                <li>To contractors, service providers and other third parties we use to support our business.</li>
+                <li>To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of the Company/Firm's assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which personal information held by the Company/Firm about our Website users is among the assets transferred.</li>
+                <li>To fulfill the purpose for which you provide it.</li>
+                <li>For any other purpose disclosed by us when you provide the information. With your consent.</li>
+            </ul>
+
+            <p>We may also disclose your personal information:</p>
+
+            <ul>
+                <li>To comply with any court order, law or legal process, including to respond to any government or regulatory request.</li>
+                <li>To enforce or apply our terms of use or terms of sale and other agreements, including for billing and collection purposes.</li>
+                <li>If we believe disclosure is necessary or appropriate to protect the rights, property, or safety of the Company/Firm, our customers or others. This includes exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.</li>
+            </ul>
+
+
+
+            <p>ACCESSING AND CORRECTING YOUR INFORMATION</p>
+            <p>You can review and change your personal information by logging into the Website e-services. You may also request to update any personal information we hold about you by contacting us at customerinfo@emaar.ae.</p>
+
+            <p>INDEMNITY</p>
+
+            <p>The Member agrees and undertakes to indemnify and hereby indemnifies and keeps safe and harmless NEST Saswad Reality LLP from all loss, claim, demand, damage, costs, charges (including legal fees and charges) or prejudice that may be caused on account of the Member’s use of the Service offered by NEST Saswad Reality LLP at the site. The Member agrees and undertakes to indemnify and hereby indemnifies and keeps safe and harmless NEST Saswad Reality LLP from all loss, claim, demand, damage, costs, charges (including legal fees and charges) or prejudice that may be caused on account of the Member’s default or breach of any of the terms of this Agreement.</p>
+
+            <p>CHANGES TO OUR PRIVACY POLICY</p>
+            <p>It is our policy to post any changes we make to our privacy policy on this page. The date the privacy policy was last revised is identified at the top of the page. You are responsible for periodically visiting our Website and this privacy policy to check for any changes.</p>
+
+            </div>
+
+
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+ 
+
+    <div style="display: flex; justify-content: center;align-items: center;" class="section">
+        <div class="blog-sec" id="ourblogs">
+                    <p class="blog-section-heading wow slideInLeft " style="margin-left: 0%"> OUR BLOGS </p> 
+
+            <div class="blog-section sectionss">
+                <div class="container">
+                    <div class="row sections-row1 " style="margin-top: 10 ">
+                            <div class="col-md-3 story-content blog" style="cursor: pointer" onclick="go('b1')">
+                                <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/blog1.jpg);"></div>
+                          <p class="blog-head">Blog 1</p>
+                            <p class="blog-title">This Is Home – Aashirwad Homes</p>
+                            <p id="post-date">Posted on 5 Sep 2019</p>
+                        </div>
+                     </div>
+                        </div>
+                       <!-- <div class="col-md-3 story-content blog" style="cursor: pointer" onclick="go('b2')">
+                          <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                          <h3>Bolg 2</h3>  
+                          <p>Earthquake resistant RCC structure in compliance with IS standards. </p>
+                          <p id="post-date">Posted on 5 Sep 2019</p>
+                        </div>
+                     </div>
+                     </div>
+                      <div class="col-md-3 story-content blog" style="cursor: pointer" onclick="go('b3')">
+                          <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                          <h3>Blog 3</h3> 
+                          <p>Earthquake resistant RCC structure in compliance with IS standards. </p>
+                          <p id="post-date">Posted on 5 Sep 2019</p>
+                        </div>
+                     </div>
+                     </div>
+                     <div class="col-md-3 story-content blog" style="cursor: pointer" onclick="go('b4')">
+                         <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                          <h3>Blog 4</h3> 
+                            <p>Earthquake resistant RCC structure in compliance with IS standards. </p>
+                            <p id="post-date">Posted on 5 Sep 2019</p>
+                        </div>
+                     </div>
+                     </div>
+                     <div class="col-md-10 story-content blog">
+                         <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                            <p>Earthquake resistant RCC structure in compliance with IS standards. </p>
+                        </div>
+                     </div>
+                      </div> -->
+                           </div>
+
+
+                <!-- <div class="row sections-row2 ">    
+                    
+                    <div class="col-md-3 story-content blog" style="cursor: pointer" onclick="go('b5')">
+                        <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                          <h3>Blog 5</h3>
+                          <p>Earthquake resistant RCC . </p>
+                          <p id="post-date">Posted on 5 Sep 2019</p>
+                        </div>
+                     </div>
+                 </div>
+                     <div class="col-md-3 story-content blog" style="cursor: pointer" onclick="go('b6')">
+                          <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                          <h3>Blog 6</h3>  
+                          <p>Earthquake resista </p>
+                        <p id="post-date">Posted on 5 Sep 2019</p>
+                        </div>
+                     </div>
+                     </div>
+                     <div class="col-md-10 story-content blog">
+                         <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                            <p>Earthquake resistant RCC structure in compliance with IS standards. </p>
+                        </div>
+                     </div>
+                     </div> 
+                      <div class="col-md-10 story-content blog">
+                          <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                            <p>Earthquake resistant RCC structure in compliance with IS standards. </p>
+                        </div>
+                     </div>
+                     </div>
+                     <div class="col-md-10 story-content blog">
+                          <div class="cart">
+                       <div class="blog-box">
+                          <div id="imge" style="background-image: url(./images/galleryimg3.jpg);"></div>
+                            <p>Earthquake resistant RCC structure in compliance with IS standards. </p>
+                        </div>
+                     </div>
+                    </div>
+           </div> -->
+       </div>
+   </div>
+</div>
+</div>
+
+
+
+
+
+    <footer class="wow fadeIn ">
+        <div class="footer-logo ">
+            <img style="width:90px " src="images/Logo.png ">
+        </div>
+        <div class="footer-nav ">
+            <a href="#home " onclick="goto( '#home') " target="self ">Home</a>
+            <a href="#about " onclick="goto( '#story') " target="self ">Our Story</a>
+            <a href="#Specifications " onclick="goto( '#Specifications' ) " target="self ">Specifications</a>
+            <a href="#gallery " onclick="goto( '#gallery' ) " target="self ">Album</a>
+            <a href="#contact " onclick="goto( '#contact') " target="self ">Join the Family</a>
+            <a href="#ourblogs " onclick="goto( '#ourblogs') " target="self ">Our Blogs</a>
+
+        </div>
+
+        <div class="social-items ">
+            <!-- <img src="images/facebook.png ">
+            <img src="images/instagram.png ">
+-->
+
+            <i class="fa fa-facebook" onclick="window.open('https://www.facebook.com/aashirwadhomespradhikaran','_blank')" area-hidden="true"></i>
+            <i class="fa fa-instagram" onclick="window.open('https://www.instagram.com/aashirwad_homes_','_blank')" area-hidden="true"></i>
+
+        </div>
+
+        <div class="aaruj" style="display: flex;align-items: center;margin-top: 30px; ">
+            <div style="margin-right: 10px;">
+                <h3>Project By</h3>
+            </div>
+            <div style="margin-left: 10px"><img style="width:90px " src="images/Arrujlogo.png "></div>
+        </div>
+
+
+        <div class="aaruj" style="display: flex;align-items: center;">
+            <div style="margin-right: 2px">
+                <img style="width:30px ;" src="images/Maharera.png "></div>
+
+            <div style="flex-direction: column ;margin-left: 2px;display: flex;align-content: center;justify-content: center">
+                <h5 style="margin-bottom: 0px;">mahaRERA no.: P52100021276</h5>
+                <span style="margin-top: 0px;text-align: center;cursor: pointer;" onclick="window.open('https://maharera.mahaonline.gov.in/','_blank')" >maharera.mahaonline.gov.in</span>
+            </div>
+        </div>
+
+        <button data-toggle="modal" data-target="#privacyModal" type="button" class="primary-buttons" style="margin :0px;margin-bottom: 30px; position: static;background-color: transparent;border: none;color: black">Privacy Policy</button>
+
+        <div class="bottom-bar ">&copy;2019 Developed by <span style="cursor: pointer;" onclick="window.open('http://atomiumlabs.com/','_blank')">Atomiumlabs</span></div>
+
+
+    </footer>
+
+
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js "></script>
+    <script src="js/jquery-migrate-1.2.1.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+
+    <script src="./lib/OwlCarousel/dist/owl.carousel.min.js "></script>
+    <script src="lib/wow.min.js "></script>
+
+    <script type="text/javascript " src="./lib/slick/slick/slick.min.js "></script>
+
+    <!-- Owl -->
+
+    <script>
+        new WOW().init();
+    </script>
+
+    <script src="js/main.js "></script>
+
+    <script type="text/javascript">
+        var app = angular.module('myApp', [], function($locationProvider) {
+            $locationProvider.html5Mode({
+                enabled: true,
+                requireBase: false
+            });
+        });
+
+        app.controller('myCtrl', function($scope, $http, $location) {
+            $scope.email = '';
+            $scope.loading = false;
+            $scope.name = '';
+            $scope.phone = '';
+            $scope.message = '';
+
+            var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            document.getElementById("uname").style.visibility = "hidden";
+            document.getElementById("number").style.visibility = "hidden";
+            document.getElementById("emailid").style.visibility = "hidden";
+            document.getElementById("thankYou").style.visibility = "hidden";
+
+
+            $scope.validateName = function() {
+                var name = $scope.name;
+                if (name == "") {
+                    document.getElementById("uname").style.visibility = "visible";
+                    return false;
+                } else if (/[0-9]/.test(name)) {
+                    document.getElementById("uname").style.visibility = "visible";
+                    return false;
+                } else {
+                    document.getElementById("uname").style.visibility = "hidden";
+                }
+            }
+
+            $scope.validatePhone = function() {
+                var phone = $scope.phone;
+                if (phone == "") {
+                    document.getElementById("number").style.visibility = "visible";
+                    return false;
+                } else if (/[0-9]/.test(name)) {
+                    document.getElementById("number").style.visibility = "visible";
+                    return false;
+                } else {
+                    document.getElementById("number").style.visibility = "hidden";
+                }
+            }
+
+
+            $scope.validateEmail = function() {
+                var email = $scope.email;
+                var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+                if (reg.test($scope.email) == false) {
+                    document.getElementById("emailid").style.visibility = "visible";
+                    return false;
+                } else {
+                    document.getElementById("emailid").style.visibility = "hidden";
+                }
+            }
+
+            $scope.sendMail = function() {
+                var val = $scope.phone;
+                var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+                this.validateName();
+                this.validatePhone();
+                this.validateEmail();
+
+                if (/^\d{10}$/.test(val)) {} else {
+                    document.getElementById("number").style.visibility = "visible";
+                    number.focus()
+                    return false
+                }
+
+                if (reg.test($scope.email) == false) {
+                    alert('Invalid Email Address');
+                    document.getElementById("emailid").style.visibility = "visible";
+                    return false;
+                } else {
+                    document.getElementById("emailid").style.visibility = "hidden";
+                }
+                if ($scope.phone != '' && $scope.name != '' && !emailValid.phone.$invalid && !emailValid.name.$invalid) {
+                    $scope.loading = true;
+                    $http({
+                        url: 'http://www.indiabillboards.com:3006/api/sendcontactmail',
+                        method: "POST",
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+
+                        data: {
+                            "email": $scope.email,
+                            "name": $scope.name,
+                            "phone": $scope.phone,
+                            'message': $scope.message,
+                            'type': 'aashirwad-contact'
+                        }
+                    })
+
+                    .then(function(response) {
+                            $scope.loading = false;
+                            $scope.email = '';
+                            $scope.phone = '';
+                            $scope.name = '';
+                            $scope.message = '';
+                            if (response.data.success == true) {
+                                window.open('images/Ebrochure.pdf', '_blank');
+
+
+                                document.getElementById("thankYou").style.visibility = "visible";
+                                document.getElementById("sendMail").style.visibility = "hidden";
+
+                            } else {
+                                alert("Something went wrong.");
+                            }
+                        },
+
+                        function(response) {
+
+                            $scope.loading = true;
+                        });
+
+                } else {
+                    console.log(emailValid.email);
+
+                }
+            };
+
+        });
+    </script>
+    <!-- <script>        
+         function myMap(){
+            var mapProp= {
+                center:new google.maps.LatLng(18.652501,73.752159),
+                zoom:15,
+            };
+
+            var location = [
+                {locationName:'Aashirwad', locationLat:18.652501,locationLng:73.752159,locationImage:'./favicon.png'},
+                 {locationName:'Dmart', locationLat:18.6467918,locationLng:73.75676,locationImage:'./location.png',},
+                {locationName:'iscon tample', locationLat:18.6541708,locationLng:73.7547301,locationImage:'./location.png'},
+                {locationName:'D Y patil', locationLat:18.644935,  locationLng:73.758197,locationImage:'./location.png'},
+                {locationName:'S B patil college', locationLat:18.653876, locationLng:73.762439,locationImage:'./location.png'},
+                {locationName:'pradhikaran Nigdi', locationLat:18.6482411,locationLng:73.7644509,locationImage:'./location.png'},
+                {locationName:'Akurdi RailwayStation', locationLat:18.6487372,locationLng:73.7647898,locationImage:'.//location.png'}  
+            ]; 
+                
+            var map = new google.maps.Map(document.getElementById("Map "),mapProp);
+                for (let index = 0; index < location.length; index++) {
+                    const element = location[index];
+                    var myCenter = new google.maps.LatLng(element.locationLat,element.locationLng);
+                    var marker = new google.maps.Marker({position:myCenter,title: element.locationName,
+                        icon:element.locationImage})
+                        marker.setMap(map);
+                }
+         } 
+    </script> -->
+    <script>
+        var overlay;
+
+        function initialize() {
+            var myLatLng = new google.maps.LatLng(18.653455, 73.753222);
+            var mapOptions = {
+                zoom: 12,
+                center: myLatLng,
+                mapTypeId: google.maps.MapTypeId.READMAP
+            };
+
+            var gmap = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+            function HTMLMarker(lat, lng) {
+                this.lat = lat;
+                this.lng = lng;
+                this.pos = new google.maps.LatLng(lat, lng);
+            }
+
+            HTMLMarker.prototype = new google.maps.OverlayView();
+            HTMLMarker.prototype.onRemove = function() {}
+
+            //init your html element here
+            HTMLMarker.prototype.onAdd = function() {
+                div = document.createElement('DIV');
+                div.className = "arrow_box ";
+                div.innerHTML = `<div style="background:white;display:flex;justify-content:center;flex-direction:column;align-items: center; margin-top:25px; "><div style="font-family: Josefin Sans;font-style: normal;font-weight: 300;font-size: 20px;
+                            ">Address</div><div id="add "><div><p class="map-address ">
+        Sr. No. 187/1,
+    </p><p class="map-address "> Shinde Vasti, </p><p class="map-address "> Ravet - 411 044</p></div></div><div><p class="map-address " style=" margin-top:10px ">7499215354</p></div><div><p class="map-address " style=" margin-top:10px
+                            " >sales@aashirwadhomes.com</p></div><div><a href="https://www.google.com/maps/search/?api=1&query=18.652501,73.752159 " class="map-primary-button " target="_blank " style="margin: 20px auto 0 auto;position: relative;padding-left: 20px; " >Get directions</a></div></div>`;
+
+                var panes = this.getPanes();
+                panes.overlayImage.appendChild(div);
+            }
+
+            HTMLMarker.prototype.draw = function() {
+                var overlayProjection = this.getProjection();
+                var position = overlayProjection.fromLatLngToDivPixel(this.pos);
+                var panes = this.getPanes();
+                panes.overlayImage.style.left = position.x + 'px';
+                panes.overlayImage.style.top = position.y + 'px';
+            }
+
+            //to use it
+            var htmlMarker = new HTMLMarker(18.653455, 73.753222);
+            htmlMarker.setMap(gmap);
+
+            function deleteMarkers() {
+                clearMarkers();
+                alert("removed ");
+                htmlMarker = null;
+            }
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnIjJ4m4WGN4fQDo5BjFrcAcpGr35gy-E &callback=initialize ">
+    </script>
+
+
+</body>
+
+</html>
